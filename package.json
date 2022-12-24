@@ -1,0 +1,52 @@
+{
+  "name": "use-react-infinite-scroll",
+  "version": "1.0.0",
+  "description": "React simple infinite scroll.",
+  "main": "dist/use-react-infinite-scroll.js",
+  "umd:main": "dist/use-react-infinite-scroll.umd.js",
+  "module": "dist/use-react-infinite-scroll.module.js",
+  "jsnext:main": "dist/use-react-infinite-scroll.module.js",
+  "react-native": "dist/use-react-infinite-scroll.module.js",
+  "typings": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/use-react-infinite-scroll.js",
+      "import": "./dist/use-react-infinite-scroll.module.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "microbundle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuynhTuanWD/use-react-infinite-scroll.git"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "react",
+    "use-react-infinite-scroll",
+    "infinite-scroll",
+    "load-more",
+    "hooks"
+  ],
+  "author": "HuynhTuanWD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HuynhTuanWD/use-react-infinite-scroll/issues"
+  },
+  "homepage": "https://github.com/HuynhTuanWD/use-react-infinite-scroll#readme",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.1 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.56",
+    "microbundle": "^0.12.4",
+    "typescript": "^4.0.5"
+  }
+}
