@@ -13,7 +13,7 @@ export const useInfiniteScroll = (
       if (listRef && listRef.current) {
         if (
           window.scrollY + window.innerHeight >
-          listRef.current.clientHeight + listRef.current.offsetTop
+          listRef.current.clientHeight + listRef.current.offsetTop - 1
         ) {
           callbackRef.current();
         }
