@@ -20,6 +20,7 @@ Use function as a React [hook](https://reactjs.org/docs/hooks-intro.html)
 `useInfiniteScroll(listRef, loadMore)`
 
 `listRef` is `ref` to your list container like `<div className="list" ref={listRef}></div>`.
+
 `loadMore` is loadMore `function` you want to pass when window scrolling touch end of list.
 
 ## Live examples (Sandbox)

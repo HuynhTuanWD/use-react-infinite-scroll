@@ -1,6 +1,6 @@
 {
   "name": "use-react-infinite-scroll",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React simple infinite scroll.",
   "main": "dist/use-react-infinite-scroll.js",
   "umd:main": "dist/use-react-infinite-scroll.umd.js",
